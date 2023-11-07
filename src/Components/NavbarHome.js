@@ -16,9 +16,9 @@ const NavbarHome = () => {
             id="responsive-navbar-nav"
           >
             <Nav>
-              <Nav.Link href="#deets">Home</Nav.Link>
-              <Nav.Link href="#memes">About Us</Nav.Link>
-              <NavDropdown
+              <Nav.Link className="px-3" href="#deets">Home</Nav.Link>
+              <Nav.Link className="px-3" href="#memes">About Us</Nav.Link>
+              <NavDropdown className="px-3"
                 id="nav-dropdown-dark-example"
                 title="Products"
                 menuVariant="dark"
@@ -34,7 +34,7 @@ const NavbarHome = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#memes">Contact Us</Nav.Link>
+              <Nav.Link className="px-3" href="#memes">Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
