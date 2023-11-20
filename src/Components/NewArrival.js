@@ -1,6 +1,7 @@
 import React from "react";
-import "./NewArrival.css";
-import food from "../images/food1.png"
+import "./Css/NewArrival.css";
+import food from "../images/food1.png";
+
 const NewArrival = () => {
   return (
     <>
@@ -15,10 +16,7 @@ const NewArrival = () => {
       <div className="new-arrival-body">
         <div className="main">
           <div className="card" tabindex="0">
-            <img
-              src={food}
-              alt="error"
-            />
+            <img src={food} alt="error" />
             <div className="text">
               <h2 data-splitting="">The City</h2>
               <p data-splitting="">
@@ -29,10 +27,7 @@ const NewArrival = () => {
             </div>
           </div>
           <div className="card" tabindex="0">
-            <img
-              src={food}
-              alt="error"
-            />
+            <img src={food} alt="error" />
             <div className="text">
               <h2 data-splitting="">The City</h2>
               <p data-splitting="">
@@ -43,10 +38,7 @@ const NewArrival = () => {
             </div>
           </div>
           <div className="card" tabindex="0">
-            <img
-              src={food}
-              alt="error"
-            />
+            <img src={food} alt="error" />
             <div className="text">
               <h2 data-splitting="">The City</h2>
               <p data-splitting="">
@@ -57,10 +49,7 @@ const NewArrival = () => {
             </div>
           </div>
           <div className="card" tabindex="0">
-            <img
-              src={food}
-              alt="error"
-            />
+            <img src={food} alt="error" />
             <div className="text">
               <h2 data-splitting="">The City</h2>
               <p data-splitting="">
@@ -71,10 +60,7 @@ const NewArrival = () => {
             </div>
           </div>
           <div className="card" tabindex="0">
-            <img
-              src={food}
-              alt="error"
-            />
+            <img src={food} alt="error" />
             <div className="text">
               <h2 data-splitting="">The City</h2>
               <p data-splitting="">
@@ -85,10 +71,7 @@ const NewArrival = () => {
             </div>
           </div>
           <div className="card" tabindex="0">
-            <img
-              src={food}
-              alt="error"
-            />
+            <img src={food} alt="error" />
             <div className="text">
               <h2 data-splitting="">The City</h2>
               <p data-splitting="">
@@ -99,10 +82,18 @@ const NewArrival = () => {
             </div>
           </div>
           <div className="card" tabindex="0">
-            <img
-              src={food}
-              alt="error"
-            />
+            <img src={food} alt="error" />
+            <div className="text">
+              <h2 data-splitting="">The City</h2>
+              <p data-splitting="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos excepturi nostrum necessitatibus doloremque? Quasi
+                non molestias odio. Quasi non molestias odio.
+              </p>
+            </div>
+          </div>
+          <div className="card" tabindex="0">
+            <img src={food} alt="error" />
             <div className="text">
               <h2 data-splitting="">The City</h2>
               <p data-splitting="">
