@@ -1,19 +1,25 @@
-import React from 'react'
-import NavbarHome from '../Components/NavbarHome'
-import Banners from '../Components/Banners'
-import NewArrival from '../Components/NewArrival'
-import PopularProducts from '../Components/PopularProducts'
-import Footer from '../Components/Footer'
+import React from "react";
+import NavbarHome from "../Components/Navbar";
+import Banner from "../Components/Banner";
+import NumberOne from "../Components/NumberOne";
+import Newarrival from "../Components/Newarrival";
+import BrandLogo from "../Components/BrandLogo";
+import FeaturedProducts from "../Components/FeaturedProducts";
+import Footer from "../Components/Footer";
+import Testimonial from "../Components/Testimonial";
 const Homepage = () => {
   return (
     <div>
       <NavbarHome />
-      <Banners />
-      <NewArrival />
-      <PopularProducts />
+      <Banner />
+      <NumberOne/>
+      <Newarrival />
+      <BrandLogo />
+      <FeaturedProducts />
+      <Testimonial />
       <Footer/>
     </div>
-  )
-}
+  );
+};
 
-export default Homepage
+export default Homepage;

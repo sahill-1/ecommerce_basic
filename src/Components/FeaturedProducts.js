@@ -1,10 +1,10 @@
 import React from "react";
 import img from "../images/download.jpg";
-const Newarrival = () => {
+const FeaturedProducts = () => {
   return (
     <div>
       <div className="mt-5 text-center new-arrival">
-        <h2>New Arrivals</h2>
+        <h2>Featured Products</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
           faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere,
@@ -107,4 +107,4 @@ const Newarrival = () => {
   );
 };
 
-export default Newarrival;
+export default FeaturedProducts;
