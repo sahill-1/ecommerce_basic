@@ -337,8 +337,7 @@ button.slick-arrow.slick-prev {
   }
 }
 
-/* TestimonialSlider.css */
-/* TestimonialSlider */
+/* TESTIMONIAL */
 .testimonial-slider {
   display: flex;
   flex-direction: column;
@@ -368,7 +367,7 @@ button.slick-arrow.slick-prev {
     opacity: 0;
   }
 }
-/* Testimonial container */
+
 .testimonial {
   border-radius: 8px;
   overflow: hidden;
@@ -378,7 +377,6 @@ button.slick-arrow.slick-prev {
   transition: transform 0.5s ease;
 }
 
-/* Testimonial content */
 .testimonial-content {
   padding: 20px;
 }
@@ -391,7 +389,6 @@ button.slick-arrow.slick-prev {
   }
 }
 
-/* Slide-out animation for testimonial content */
 .testimonial-exit .testimonial-content {
   animation: fadeOut 0.5s ease forwards;
 }
@@ -405,18 +402,15 @@ button.slick-arrow.slick-prev {
   }
 }
 
-/* Quote text */
 .quote {
   font-style: italic;
   margin-bottom: 15px;
 }
 
-/* Author information */
 .author-info {
   text-align: right;
 }
 
-/* Controls */
 .controls {
   position: absolute;
   top: 100%;
@@ -424,7 +418,6 @@ button.slick-arrow.slick-prev {
   transform: translateY(-50%);
 }
 
-/* Arrow icons */
 .arrow {
   cursor: pointer;
   font-size: 24px;
@@ -436,13 +429,11 @@ button.slick-arrow.slick-prev {
   transform: scale(1.1);
 }
 
-/* Left arrow */
 .arrow-left {
   position: absolute;
   left: 10%;
 }
 
-/* Right arrow */
 .arrow-right {
   position: absolute;
   right: 0;
