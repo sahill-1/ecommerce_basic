@@ -35,8 +35,17 @@ const BrandLogo = () => {
   };
   return (
     <>
-      <div className="mt-5 text-center new-arrival">
+      {/* <div className="mt-5 text-center new-arrival">
         <h2>Meet Our Clients</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere,
+          diam
+        </p>
+      </div> */}
+      <div className="text-center mx-auto my-5" style={{ maxWidth: "600px" }}>
+        <h1 className="display-5 mb-0">Dealing Brands</h1>
+        <hr className="w-25 mx-auto bg-primary" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
           faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere,
@@ -44,12 +53,36 @@ const BrandLogo = () => {
         </p>
       </div>
       <Slider {...settings} className="my-4">
-        <img className="slider-image" src="https://seeklogo.com/images/C/cmp-client-money-protect-logo-77DDEC9898-seeklogo.com.png" alt="error" />
-        <img className="slider-image" src="https://seeklogo.com/images/C/cmp-client-money-protect-logo-77DDEC9898-seeklogo.com.png" alt="error" />
-        <img className="slider-image" src="https://seeklogo.com/images/C/cmp-client-money-protect-logo-77DDEC9898-seeklogo.com.png" alt="error" />
-        <img className="slider-image" src="https://seeklogo.com/images/C/cmp-client-money-protect-logo-77DDEC9898-seeklogo.com.png" alt="error" />
-        <img className="slider-image" src="https://seeklogo.com/images/C/cmp-client-money-protect-logo-77DDEC9898-seeklogo.com.png" alt="error" />
-        <img className="slider-image" src="https://seeklogo.com/images/C/cmp-client-money-protect-logo-77DDEC9898-seeklogo.com.png" alt="error" />
+        <img
+          className="slider-image"
+          src="https://seeklogo.com/images/C/cmp-client-money-protect-logo-77DDEC9898-seeklogo.com.png"
+          alt="error"
+        />
+        <img
+          className="slider-image"
+          src="https://seeklogo.com/images/C/cmp-client-money-protect-logo-77DDEC9898-seeklogo.com.png"
+          alt="error"
+        />
+        <img
+          className="slider-image"
+          src="https://seeklogo.com/images/C/cmp-client-money-protect-logo-77DDEC9898-seeklogo.com.png"
+          alt="error"
+        />
+        <img
+          className="slider-image"
+          src="https://seeklogo.com/images/C/cmp-client-money-protect-logo-77DDEC9898-seeklogo.com.png"
+          alt="error"
+        />
+        <img
+          className="slider-image"
+          src="https://seeklogo.com/images/C/cmp-client-money-protect-logo-77DDEC9898-seeklogo.com.png"
+          alt="error"
+        />
+        <img
+          className="slider-image"
+          src="https://seeklogo.com/images/C/cmp-client-money-protect-logo-77DDEC9898-seeklogo.com.png"
+          alt="error"
+        />
       </Slider>
     </>
   );

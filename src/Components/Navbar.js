@@ -9,16 +9,27 @@ const NavbarHome = () => {
     <div>
       <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand className="text-warning font-weight-bold" style={{fontSize:"xx-large", fontWeight:"bolder"}} href="#home">E-commerce</Navbar.Brand>
+          <Navbar.Brand
+            className="text-warning font-weight-bold"
+            style={{ fontSize: "xx-large", fontWeight: "bolder" }}
+            href="#home"
+          >
+            E-commerce
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse
             className="justify-content-end"
             id="responsive-navbar-nav"
           >
             <Nav>
-              <Nav.Link className="px-3" href="#deets">Home</Nav.Link>
-              <Nav.Link className="px-3" href="#memes">About Us</Nav.Link>
-              <NavDropdown className="px-3"
+              <Nav.Link className="px-3" href="#deets">
+                Home
+              </Nav.Link>
+              <Nav.Link className="px-3" href="#memes">
+                About Us
+              </Nav.Link>
+              <NavDropdown
+                className="px-3"
                 id="nav-dropdown-dark-example"
                 title="Products"
                 menuVariant="dark"
@@ -34,7 +45,9 @@ const NavbarHome = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link className="px-3" href="#memes">Contact Us</Nav.Link>
+              <Nav.Link className="px-3" href="#memes">
+                Contact Us
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

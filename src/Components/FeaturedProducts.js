@@ -3,8 +3,17 @@ import img from "../images/download.jpg";
 const FeaturedProducts = () => {
   return (
     <div>
-      <div className="mt-5 text-center new-arrival">
+      {/* <div className="mt-5 text-center new-arrival">
         <h2>Featured Products</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere,
+          diam
+        </p>
+      </div> */}
+      <div className="text-center mx-auto my-5" style={{ maxWidth: "600px" }}>
+        <h1 className="display-5 mb-0">Featured Products</h1>
+        <hr className="w-25 mx-auto bg-primary" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
           faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere,

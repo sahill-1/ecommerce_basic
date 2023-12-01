@@ -411,6 +411,12 @@ button.slick-arrow.slick-prev {
   text-align: right;
 }
 
+.author-info-image{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
 .controls {
   position: absolute;
   top: 100%;
