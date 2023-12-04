@@ -22,10 +22,10 @@ const NavbarHome = () => {
             id="responsive-navbar-nav"
           >
             <Nav>
-              <Nav.Link className="px-3" href="#deets">
+              <Nav.Link className="px-3" href="/">
                 Home
               </Nav.Link>
-              <Nav.Link className="px-3" href="#memes">
+              <Nav.Link className="px-3" href="/aboutus">
                 About Us
               </Nav.Link>
               <NavDropdown
@@ -34,7 +34,7 @@ const NavbarHome = () => {
                 title="Products"
                 menuVariant="dark"
               >
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#fff">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action
                 </NavDropdown.Item>
@@ -45,7 +45,7 @@ const NavbarHome = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link className="px-3" href="#memes">
+              <Nav.Link className="px-3" href="/contactus">
                 Contact Us
               </Nav.Link>
             </Nav>
