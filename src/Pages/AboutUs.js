@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Navbar from "../Components/Navbar";
 import { FaShoppingCart, FaShoppingBasket, FaStopwatch, FaMotorcycle } from "react-icons/fa";
 import Footer from '../Components/Footer';
@@ -67,7 +67,7 @@ const AboutUs = () => {
             </div>
         </div>
     </div>
-     {/* About Start */}
+    {/* About Start */}
     <div id="about" className="about">
          <div className="container">
             <div className="row">
@@ -91,4 +91,4 @@ const AboutUs = () => {
   )
 }
 
-export default AboutUs
+export default AboutUs;
