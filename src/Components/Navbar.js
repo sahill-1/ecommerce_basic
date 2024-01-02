@@ -1,13 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 const NavbarHome = () => {
+  const [showProducts, setShowProducts] = useState(false);
+
+  const handleMouseEnter = () => {
+    setShowProducts(true);
+  };
+  const handleMouseLeave = () => {
+    setShowProducts(false);
+  };
+
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        className="bg-body-tertiary"
+        onMouseLeave={handleMouseLeave}
+      >
         <Container>
           <Navbar.Brand
             className="text-warning font-weight-bold"
@@ -32,6 +46,9 @@ const NavbarHome = () => {
                 className="px-3"
                 id="nav-dropdown-dark-example"
                 title="Products"
+                show={showProducts}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
                 menuVariant="dark"
               >
                 <NavDropdown.Item href="#fff">Action</NavDropdown.Item>
