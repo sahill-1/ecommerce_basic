@@ -1,6 +1,7 @@
 import React from "react";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook, FaGooglePlusG, FaInstagram } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <>
@@ -93,22 +94,29 @@ const Footer = () => {
                 <li>
                   <a className="facebook" href="/">
                     <i className="">
-<FaFacebook /></i>
+                      <FaFacebook />
+                    </i>
                   </a>
                 </li>
                 <li>
                   <a className="twitter" href="/">
-                    <i className=""><FaXTwitter /></i>
+                    <i className="">
+                      <FaXTwitter />
+                    </i>
                   </a>
                 </li>
                 <li>
                   <a className="dribbble" href="/">
-                    <i className=""><FaGooglePlusG /></i>
+                    <i className="">
+                      <FaGooglePlusG />
+                    </i>
                   </a>
                 </li>
                 <li>
                   <a className="linkedin" href="/">
-                    <i className=""><FaInstagram /></i>
+                    <i className="">
+                      <FaInstagram />
+                    </i>
                   </a>
                 </li>
               </ul>
