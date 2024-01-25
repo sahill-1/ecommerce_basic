@@ -70,7 +70,9 @@ const NavbarHome = () => {
         </Container>
       </Navbar>
     </div>
-     );
+   
+   
+    );
 };
 
 export default NavbarHome;
